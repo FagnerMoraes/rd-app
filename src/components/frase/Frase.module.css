@@ -1,0 +1,12 @@
+.fraseContainer{
+    background-color: #333;
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.frase_content{
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+}

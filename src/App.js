@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Condicional from './components/evento/Condicional';
+//import Pessoa from './components/Pessoa'
+//import Frase from './components/frase/Frase'
+//import List from './components/list/List'
+//import Evento from './components/form/Evento';
+//import Form from './components/form/Form';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Renderizacao Condicional</h1>
+      <Condicional />
     </div>
   );
 }
